@@ -154,5 +154,23 @@ dict = {
             "images": ["xmind1.png","xmind2.png","xmind3.png"],
             "repo": "fp",
             "description": "Полнофункциональное приложение для майндмэппинга и мозгового штурма"
+        },
+    "Audacity": {
+            "command": "audacity",
+            "images": ["audacity1.png","audacity2.png","audacity3.png"],
+            "repo": "redos",
+            "description": "Свободный многоплатформенный аудиоредактор звуковых файлов"
+        },
+    "Nootka": {
+            "command": "net.sf.nootka",
+            "images": ["Nootka1.png","Nootka2.png","Nootka3.png"],
+            "repo": "fp",
+            "description": "Приложение помогает понять основы нотной грамоты и попрактиковаться в игре на музыкальных инструментах"
+        },
+    "Denemo": {
+            "command": "org.denemo.Denemo",
+            "images": ["Denemo1.png","Denemo2.png","Denemo3.png"],
+            "repo": "fp",
+            "description": "Программа для нотной записи, которая позволяет быстро вводить нотную запись. Музыку можно набирать на клавиатуре ПК или воспроизводить через MIDI-контроллер."
         }
 }

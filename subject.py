@@ -28,11 +28,15 @@ dict = {
         "Avogadro",
         "kalzium"
     },
+    "Музыка": {
+        "Audacity",
+        "Nootka",
+        "Denemo"
+    },
     "Общее": {
         "Veyon",
         "OpenBoard",
         "Timetable",
-        "Gradebook",
         "Xmind",
         "Space"
     }
