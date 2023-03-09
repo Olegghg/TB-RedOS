@@ -25,7 +25,6 @@ def is_redos_installed():
 
 if is_redos_installed():
     print("Flatpak redos уже установлен.")
-    path = str(subprocess.check_output(["pwd"])[:-1])[2:-1]
 else:
     print("Flatpak redos не установлен.")
     print("Начинается установка")
@@ -35,6 +34,7 @@ else:
     except:
         print("Ошибка, установите flatpak вручную")
         exit()
+path = str(subprocess.check_output(["pwd"])[:-1])[2:-1]
 class NewprojectApp:
     def __init__(self, master=None):
         # build ui
