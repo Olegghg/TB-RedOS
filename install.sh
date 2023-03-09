@@ -12,7 +12,7 @@ echo "[Desktop Entry]
 Type =Application
 Terminal=true
 Name=$ICON_NAME
-Icon=images/desktop.png
+Icon=images/desktop.jpeg
 Exec=$APP" > ~/Рабочий\ стол/$ICON_NAME.desktop
 
 chmod +x ~/Рабочий\ стол/$ICON_NAME.desktop
