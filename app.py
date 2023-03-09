@@ -114,7 +114,6 @@ class NewprojectApp:
         if description.dict.get(program).get("repo") == "redos":
             # Устанавливаем выбранные пакеты ПО с помощью apt-get
             subprocess.run(['sudo', 'dnf', 'install', "-y", description.dict.get(program).get("command")])
-            print(str(['sudo', 'dnf', 'install', "-y", description.dict.get(program).get("command")]))
             print("Установка завершена", "Пакеты ПО были успешно установлены.")
         elif description.dict.get(program).get("repo") == "fp":
             subprocess.run(['sudo', 'flatpak', 'install', '-y', description.dict.get(program).get("command")])
