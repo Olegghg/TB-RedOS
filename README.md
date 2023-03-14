@@ -13,9 +13,11 @@ dnf install git
 1. Отклонировать репозиторий с помощью команды:
 
 git clone https://github.com/Olegghg/TB-RedOS.git
+
 2. Перейти в папку проекта:
 
 cd TB-RedOS
+
 2. Запустить install.sh скрипт:
 
 ./install.sh
